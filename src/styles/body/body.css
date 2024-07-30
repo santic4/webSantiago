@@ -1,0 +1,88 @@
+.container-father-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    padding: 0 10vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../../../public/background-laptop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Estilos para el lado izquierdo */
+.left-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: -8vh;
+}
+
+.left-side .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* Estilos para el lado derecho */
+.right-side {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    height: 100%;
+    margin-top: 25vw;
+    text-align: start;
+    width: 100%;
+}
+
+.right-side .container-right {
+    padding-left: 6vh;
+    top: 0;
+    text-align: center;
+    align-items: start;
+}
+
+.right-side h1 {
+    color:  #003366;
+    font-weight: 800;
+    text-align: start;
+    margin-bottom: 3vh;
+    text-shadow: 2px 2px 4px #0033662a;
+}
+
+.right-side h2 {
+    color:  #003366;
+    text-align: start;
+    text-shadow: 2px 2px 4px #0033662a;
+    margin-bottom: 3.2vw;
+}
+
+.container-btn-head{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.right-side button {
+    background-color:  #FF8C42;
+    box-shadow: 2px 2px 4px #ff583350;
+    color: #FFF;
+    border: none;
+    align-items: start;
+    padding: 10px 8vh;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1vw;
+    transition: background-color 0.3s ease;
+}
+
+.right-side button:hover {
+    background-color: #1A1F36;
+}

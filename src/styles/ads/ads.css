@@ -1,0 +1,97 @@
+.container-father{
+    padding-top: 5vh;
+    padding-bottom: 8vh;
+    padding-left: 10vh;
+    height: 100%;
+    width: 100%;
+}
+
+.titulo-subseccion{
+    font-size: 2vw;
+    padding-top: 3vh;
+    padding-bottom: 4vh;
+    color: black;
+
+}
+
+.texto-subseccion{
+    font-size: 2.4vh;
+    color: black;
+    padding-bottom: 4vh;
+}
+
+.servicios-lista {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.servicio {
+  position: relative;
+  width: 30vh;
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  border-radius: 2px;
+  height: 30vh;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.circulo {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-color: #FF8C42;
+  border-radius:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.servicio:hover .circulo {
+  top: 0%;
+  left: -5%;
+  height: 150%;
+  width: 150%;
+  z-index: 1;
+}
+
+.circulo p {
+  display: none;
+  text-align: start;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.23);
+  padding: 20px;
+  line-height: 3vh;
+  z-index: 10;
+  width: 30vh;
+  font-size: 1vw;
+}
+
+.servicio:hover .circulo p {
+  display: block;
+  transform: translate(-18%, -30%);
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  z-index: 10;
+}
+
+.servicio h4 {
+
+  font-size: 1vw;
+  margin-bottom: 5vh;
+  max-width: 80%;
+}
+
+.servicio:hover h4 {
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}

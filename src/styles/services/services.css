@@ -1,0 +1,42 @@
+.seccion-servicios {
+    margin: 0;
+    padding: 10vh;
+    background-color: #FF8C42;
+}
+
+.contenedor {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.titulo-seccion {
+  font-size: 2.5em;
+  margin-bottom: 10vh;
+  text-align: start;
+}
+
+.intro-seccion {
+  font-size: 2vw;
+  margin-bottom: 5vh;
+  text-align: start;
+}
+
+.razones-lista {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.razones-lista li {
+  font-size: 1.1em;
+  margin-bottom: 5vh;
+  padding-left: 25px;
+  position: relative;
+}
+
+.razones-lista li::before {
+  content: '✔️';
+  position: absolute;
+  left: 0;
+}
