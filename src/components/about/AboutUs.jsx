@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../styles/about/about.css'
+import '../../styles/about/about-us.css'
 
-export default function About() {
+export default function AboutUs() {
   return (
     <section className="seccion-servicios">
       <div className="contenedor">

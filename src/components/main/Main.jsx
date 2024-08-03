@@ -3,13 +3,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from '../navbar/Navbar';
 import ScrollAnimationWrapper from '../scroll/ScrollAnimationWrapper';
 import Body from '../Body/Body';
-import About from '../about/About.jsx';
 import Ads from '../ads/Ads.jsx';
 import FAQs from '../faqs/FAQs.jsx';
 import ContactForm from '../contact/Contact.jsx';
 import Footer from '../footer/Footer.jsx';
 import '../../App.css'
 import Services from '../services/Services.jsx'
+import AboutUs from '../about/AboutUs.jsx';
 
 function Main() {
   return (
@@ -27,7 +27,7 @@ function Main() {
         </section>
      
         <section id="about">
-          <About />
+          <AboutUs />
         </section>
         <section data-aos="fade" id="faqs">
           <FAQs/>
