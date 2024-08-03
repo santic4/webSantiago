@@ -3,7 +3,8 @@ import Trail from './Trail.jsx';
 import '../../styles/body/body.css'
 const texts = [
   ['Blogs', 'eCommerce', 'Portafolio'],
-  ['Reviews', 'Servicios', 'Galerías']
+  ['Reviews', 'Flyers', 'Galerías'],
+  ['Presentaciones', 'Currículums', 'Logos']
 ];
 
 export default function Body() {
@@ -17,7 +18,7 @@ export default function Body() {
         setTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
         setOpen(true);
       }, 300);
-    }, 5000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);

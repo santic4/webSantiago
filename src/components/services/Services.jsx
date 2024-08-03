@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <div className='container-father'>
 
-      <div data-aos="fade" className="servicios-lista">
+      <div className="servicios-lista">
         <div className="servicio">
           <h4>Posicionamiento SEO</h4>
           <div className="circulo">
