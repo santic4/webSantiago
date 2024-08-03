@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import '../../styles/navbar/navbar.css';
+import '../../styles/navbar/navbar.css'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +41,7 @@ const Navbar = () => {
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="navbar-container">
          
-          { scrolled ? <img className='vision-logo' src='logoVO-render.png'></img> : <a href="/" className="navbar-logo">VisiónOnline</a>}
+          { scrolled ? <img className='vision-logo' src='logoVO-render.png' alt='ve-rosa'></img> : <a href="/" className="navbar-logo">VisiónOnline</a>}
 
           <div className={`menu-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
             <div className="bar"></div>
