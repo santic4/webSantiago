@@ -16,17 +16,16 @@ function Main() {
     <section className='container-app'>
       <Navbar />
       <ScrollAnimationWrapper>
-        <section id="home">
+        <section data-aos="fade" id="home">
           <Body />
         </section>
-        <section id="ads">
+        <section data-aos="fade"  id="ads">
           <Ads />
         </section>
-        <section data-aos="fade" id="faqs">
+        <section data-aos="fade" id="services">
           <Services />
         </section>
-     
-        <section id="about">
+        <section data-aos="fade" id="about">
           <AboutUs />
         </section>
         <section data-aos="fade" id="faqs">
