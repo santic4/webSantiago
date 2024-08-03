@@ -80,11 +80,11 @@
 }
 
 .success-message {
-  color: #28a745; /* Verde para éxito */
+  color: white;
 }
 
 .error-message {
-  color: #dc3545; /* Rojo para error */
+  color: white;
 }
   
 @media screen and (max-width: 1000px) {

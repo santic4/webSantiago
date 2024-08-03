@@ -1,5 +1,5 @@
 .publicidad-section {
-  padding: 100px 20px 1vh;
+  padding: 2vh 2vh 1vh;
   color: white;
   text-align: center;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 50%), url('../../../public/back-deg.png');  background-size: cover;
@@ -22,21 +22,22 @@
 
 
 .publicidad-texto {
-  font-size: 1.5rem;
+  font-size: 2.5vh;
+  color: rgb(40, 40, 40);
   margin-bottom: 30px;
-  color: #000000;
   line-height: 1.6;
   display: inline-block;
   padding-bottom: 10px;
+  font-weight: 500;
 }
 
 .publicidad-boton {
   background:#07273c;
   color: #fff;
-  padding: 15px 35px;
+  padding: 1.5vh 3vh;
   border-radius: 50px;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 2vh;
   transition: background-color 0.4s ease, box-shadow 0.4s ease;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
@@ -55,7 +56,7 @@
 /* QUERIES */
 @media screen and (max-width: 1300px){
   .publicidad-section {
-    padding: 3vh 20px 1vh;
+    padding: 0vh 20px 1vh;
   }
 
   

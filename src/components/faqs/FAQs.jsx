@@ -30,6 +30,10 @@ const FAQs = () => {
         answer: 'Desarrollamos campañas de email marketing personalizadas que incluyen diseño de correos, segmentación de audiencias y análisis de resultados para maximizar el impacto de tus comunicaciones con los clientes.'
       },
       {
+        question: '¿Qué incluye el servicio de Diseño Gráfico?',
+        answer: 'El servicio de Diseño Gráfico abarca la creación de materiales visuales como flyers, logotipos y otros elementos gráficos. Nos enfocamos en diseñar contenidos atractivos y personalizados que representen tu marca de manera profesional.'
+      },
+      {
         question: '¿Puedo contratar un solo servicio o necesito contratar todos?',
         answer: 'Podés contratar nuestros servicios de manera individual según tus necesidades específicas, o elegir un paquete completo para un enfoque más integral y personalizado en el desarrollo de tu presencia online.'
       },
@@ -38,6 +42,7 @@ const FAQs = () => {
         answer: 'Para solicitar un servicio, simplemente contactanos especificando tus necesidades generales. Nos pondremos en contacto contigo para analizar tu proyecto y seguir con el proceso de manera eficiente.'
       }
     ];
+    
   
     return (
       <section id="faqs">

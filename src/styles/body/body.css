@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 82vh;
+    height: 87vh;
     padding: 0 10vh;
     position: relative;
     overflow: hidden;
@@ -59,10 +59,10 @@
 }
 
 .right-side h2 {
-    color:  white;
+    color: none; 
     text-align: start;
     text-shadow: 2px 2px 4px #0033662a;
-    margin-bottom: 3.2vw;
+    margin: 5vh auto;
 }
 
 .container-btn-head{
@@ -111,7 +111,7 @@
     }
     
     .right-side .container-right {
-        padding: 0;
+        padding: 4vh 0 0;
         text-align: center;
         align-items: start;
     }
@@ -125,12 +125,12 @@
     }
     
     .container-btn-head{
-        margin-top: 5vh;
+        margin-top: 6vh;
     }
     
     .right-side button {
-        font-size: 2.2vh;
-        padding: 0.8vh 4vh;
+        font-size: 2vh;
+        padding: 1.4vh 3.8vh;
     }
 }
 

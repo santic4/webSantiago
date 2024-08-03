@@ -1,35 +1,35 @@
 .container-father{
     padding-top: 5vh;
     padding-bottom: 8vh;
-    padding-left: 10vh;
+    padding-left: auto;
     height: 100%;
     width: 100%;
 }
 
+.servicios-lista {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .titulo-subseccion{
-    font-size: 2vw;
+    font-size: 2vh;
     padding-top: 3vh;
     padding-bottom: 4vh;
     color: #07273c;
-
 }
 
 .texto-subseccion{
-    font-size: 2.4vh;
-    padding-bottom: 4vh;
-}
-
-.servicios-lista {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
+  font-size: 2.4vh;
+  padding-bottom: 4vh;
 }
 
 .servicio {
   position: relative;
-  width: 30vh;
+  width: 40vh;
   background-color: #07273c;
   color: white;
   padding: 20px;
@@ -53,6 +53,8 @@
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease;
+  background-size: cover;
+  background-repeat: no-repeat;
   z-index: 1;
 }
 
@@ -62,19 +64,22 @@
   height: 150%;
   width: 150%;
   z-index: 1;
+  position: absolute;
 }
 
 .circulo p {
   display: none;
   text-align: start;
-  text-shadow: 2px 2px 4px rgba(25, 25, 25, 0.23);
-  padding: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.23);
+  padding-top: 0;
+  margin-top: 0;
+  padding: 2vh;
   line-height: 3vh;
   z-index: 10;
-  width: 30vh;
+  width: 37vh;
   font-weight: 700;
-  color: white;
-  font-size: 1vw;
+  color: rgb(255, 255, 255);
+  font-size: 2vh;
 }
 
 .servicio:hover .circulo p {
@@ -86,13 +91,91 @@
 }
 
 .servicio h4 {
-
-  font-size: 1vw;
+  font-size: 1.8vh;
   margin-bottom: 5vh;
   max-width: 80%;
+  text-shadow: 2px 2px 4px rgba(25, 25, 25, 0.23);
 }
 
 .servicio:hover h4 {
-    opacity: 0;
-    transition: all 0.3s ease-in-out;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+/* IMAGES */
+.servicio .img-seo,
+.servicio .img-ux,
+.servicio .email-marketing,
+.servicio .maintenance-icon,
+.servicio .copywriting-icon,
+.servicio .graphics-design {
+  position: absolute;
+  width: auto;
+  height: 7vh;
+  top: 4vh;
+  left: 9vh;
+  opacity: 0.9;
+}
+
+.servicio:hover .img-seo,
+.servicio:hover .img-ux, 
+.servicio:hover .email-marketing,
+.servicio:hover .maintenance-icon,
+.servicio:hover .copywriting-icon,
+.servicio:hover .graphics-design {
+    display: block;
+    height: auto;
+    opacity: 0.2;
+}
+
+
+/* QUERIES */
+
+@media screen and (max-width: 900px) {
+  .servicio {
+    pointer-events: none;
+  }
+
+  .servicio .circulo {
+    top: 0%;
+    left: -5%;
+    height: 150%;
+    width: 150%;
+    z-index: 10;
+  }
+
+  .servicio h4 {
+    display: block;
+    font-size: 2vh;
+    margin-bottom: 5vh;
+    max-width: 80%;
+    position: absolute;
+    z-index: 200;
+  }
+
+  .circulo p {
+    display: inline-block;
+    padding: 0;
+    margin-top: -10vh;
+    margin-left: -32vh;
+    width: 60%;
+    font-size: 1.8vh;
+    z-index: 10;
+  }
+
+  /* IMAGES */
+  .servicio .img-seo,
+  .servicio .img-ux,
+  .servicio .email-marketing,
+  .servicio .maintenance-icon,
+  .servicio .copywriting-icon,
+  .servicio .graphics-design {
+    position: relative;
+    width: auto;
+    height: 20vh;
+    top: -15%;
+    left: 0;
+    opacity: 0.2;
+  }
+
 }
