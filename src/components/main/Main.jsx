@@ -19,13 +19,13 @@ function Main() {
         <section data-aos="fade" id="home">
           <Body />
         </section>
-        <section data-aos="fade"  id="ads">
+        <section id="ads">
           <Ads />
         </section>
-        <section data-aos="fade" id="services">
+        <section id="services">
           <Services />
         </section>
-        <section data-aos="fade" id="about">
+        <section id="about">
           <AboutUs />
         </section>
         <section data-aos="fade" id="faqs">

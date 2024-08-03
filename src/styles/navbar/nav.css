@@ -27,15 +27,15 @@
   }
   
   .navbar-logo, .vision-logo {
-    transition: opacity 0.6s ease; /* Transición suave para la opacidad */
+    transition: opacity 0.6s ease; 
   }
   
   .navbar.scrolled .navbar-logo {
-    opacity: 1; /* Desaparece cuando se desplaza */
+    opacity: 1; 
   }
   
   .navbar.scrolled .vision-logo {
-    opacity: 1; /* Aparece cuando se desplaza */
+    opacity: 1; 
   }
   
   .navbar-logo {
@@ -56,7 +56,6 @@
     display: none;
     cursor: pointer;
   }
-  
   
   /* BAR */
   .menu-icon {
@@ -88,6 +87,8 @@
   
   .menu-icon.open .bar:nth-child(2) {
     opacity: 0;
+    display: none;
+    color: transparent;
   }
   
   .menu-icon.open .bar:nth-child(3) {
@@ -111,7 +112,8 @@
   .nav-links {
     color: #07273c;
     text-decoration: none;
-    font-size: 1.9vh;
+    font-size: 2vh;
+    font-weight: 450;
     transition: color 0.3s ease;
     position: relative; 
     text-shadow: .5px .5px 1px #00336651;
@@ -150,9 +152,9 @@
   }
   
   .btn-contact:hover {
-    background: #ff6f00; /* Color de fondo más oscuro al pasar el ratón */
-    box-shadow: 0 10px 20px rgba(255, 140, 66, 0.6); /* Sombra más pronunciada */
-    transform: translateY(-1vh); /* Eleva el botón al pasar el ratón */
+    background: #ff6f00; 
+    box-shadow: 0 10px 20px rgba(255, 140, 66, 0.6); 
+    transform: translateY(-1vh); 
   }
   
   .btn-contact:hover{
@@ -191,6 +193,7 @@
     
     .nav-menu.active {
       display: flex;
+      height: 100%;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -198,10 +201,10 @@
       -webkit-backdrop-filter: blur(10px); /* Filtro de desenfoque */
       backdrop-filter: blur(10px);
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
-      min-height: 30vh; /* Ajusta según el contenido */
+      min-height: 40vh; /* Ajusta según el contenido */
       transform: translateY(0);
       opacity: 1;
-      gap: 5vh;
+      gap: 7vh;
       text-align: center;
       visibility: visible;
     }
@@ -248,5 +251,6 @@
       max-width: 15vh;
       padding: 0.6vh 4vh;
     }
+
   
   }

@@ -20,22 +20,23 @@
 .contact-header {
   text-align: center;
   width: 100%;
-  padding-left: 10vh;
-  padding-right: 10vh;
+  padding: 0 3vh;
 }
 
 .contact-header h2 {
-  font-size: 2.5em;
-  color: white; /* Azul Marino */
+  font-size: 5vh;
+  margin: 0 auto 3vh;
+  color: white; 
 }
 
 .contact-header p {
-  font-size: 1.2em;
+  font-size: 2.2vh;
   color: #6c6c6c; /* Gris oscuro */
 }
 
 .contact-form {
   width: 100%;
+  margin-top: 2vh;
   padding-right: 10vh;
 }
 
@@ -52,30 +53,33 @@
 
 .form-group input, .form-group select, .form-group textarea {
   width: 100%;
-  padding: 10px;
+  padding: 1vh;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
 .submit-button {
-  background-color: #002244; /* Azul Marino */
+  background-color: #002244; 
   color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
   cursor: pointer;
-  font-size: 1.2em;
-  transition: background-color 0.3s ease-out;
+  font-size: 2vh;
+  transform: translateY(-0.4vh);
+  padding: 1vh 5vh;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.4s ease, box-shadow 0.4s ease, transform 0.4s ease;
+  box-shadow: 0 5px 15px #00336641;
 }
 
 .submit-button:hover {
-  background-color: white; /* Azul más oscuro para el hover */
+  background-color: white;
   color: #002244;
 }
 
 .success-message, .error-message {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 2vh;
   margin-top: 15px;
 }
 
@@ -90,7 +94,7 @@
 @media screen and (max-width: 1000px) {
   #contact {
     width: 100%;
-    padding-top: 5vh;
+    padding-top: 3vh;
     padding-bottom: 2vh;
     background-color: #003366;
     display: flex;
@@ -100,10 +104,11 @@
 
   .contact-form {
     width: 100%;
-    padding: 2vh 10vh;
+    padding: 2vh 4vh;
   }
 
   .qr-escan{
     display: none;
   }
+
 }
