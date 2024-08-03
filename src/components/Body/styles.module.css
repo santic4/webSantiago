@@ -28,6 +28,13 @@
   
   @media screen and (max-width: 1200px) {
     .trailsText{
-      display: none;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .trailsText{
+      margin-left: -5vh;
+      width: 150%;
     }
   }

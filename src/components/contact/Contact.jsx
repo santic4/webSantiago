@@ -43,7 +43,8 @@ const ContactForm = () => {
     <section id="contact">
       <div className="contact-header">
         <h2>Contactanos</h2>
-        <p>Estamos aquí para ayudarte. Completa el formulario y nos pondremos en contacto contigo.</p>
+        <p>Estamos aquí para ayudarte. Completa el formulario y nos pondremos en contacto contigo o escanee el código QR.</p>
+        <img className='qr-escan' alt='qr-wsp' src='qr-escan.png'></img>
       </div>
       <form onSubmit={handleSubmit} className="contact-form">
         <div className="form-group">

@@ -6,13 +6,11 @@
 }
 
 .container-app{
-  background-color: #f9f9f9;
   height: auto;
   margin: 0;
   padding: 0;
   z-index: 0;
-background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1000' height='1000' preserveAspectRatio='none' viewBox='0 0 1000 1000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask13888%26quot%3b)' fill='none'%3e%3crect width='390.32' height='390.32' clip-path='url(%26quot%3b%23SvgjsClipPath13889%26quot%3b)' x='512.29' y='505.37' fill='url(%26quot%3b%23SvgjsPattern13890%26quot%3b)' transform='rotate(87.91%2c 707.45%2c 700.53)'%3e%3c/rect%3e%3crect width='257.76' height='257.76' clip-path='url(%26quot%3b%23SvgjsClipPath13891%26quot%3b)' x='139' y='11.88' fill='url(%26quot%3b%23SvgjsPattern13892%26quot%3b)' transform='rotate(107.56%2c 267.88%2c 140.76)'%3e%3c/rect%3e%3cpath d='M799.79 316.31L797.2 328.85 784.4 329.08 781.82 341.62 769.01 341.86 766.43 354.4 753.62 354.63M794.68 310.15L792.09 322.69 779.29 322.93 776.71 335.47 763.9 335.7 761.32 348.24 748.51 348.48M789.57 304L786.98 316.54 774.18 316.77 771.6 329.31 758.79 329.55 756.21 342.09 743.4 342.32' stroke='%23e73635' stroke-width='1.61' stroke-dasharray='3%2c 2'%3e%3c/path%3e%3cpath d='M1115.33 904.52 L1028.86 964.94L1142.9178622906186 1005.5528622906188z' stroke='rgba(3%2c 123%2c 11%2c 0.31)' stroke-width='1.51' stroke-dasharray='3%2c 3'%3e%3c/path%3e%3ccircle r='131.08572313357988' cx='598.97' cy='553.95' stroke='%23d3b714' stroke-width='2.68'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask13888'%3e%3crect width='1000' height='1000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpattern x='0' y='0' width='13.94' height='13.94' patternUnits='userSpaceOnUse' id='SvgjsPattern13890'%3e%3cpath d='M0 13.94L6.97 0L13.94 13.94' stroke='rgba(3%2c 123%2c 11%2c 0.31)' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath13889'%3e%3ccircle r='97.58' cx='707.45' cy='700.53'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='7.16' height='7.16' patternUnits='userSpaceOnUse' id='SvgjsPattern13892'%3e%3cpath d='M0 7.16L3.58 0L7.16 7.16' stroke='%23e73635' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath13891'%3e%3ccircle r='64.44' cx='267.88' cy='140.76'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");}
-
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

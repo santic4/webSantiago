@@ -4,9 +4,11 @@ import '../../styles/footer/footer.css';
 const Footer = () => {
   return (
     <footer className="footer">
-     
+      <div>
+        <img className='logo-vo' src='logoVO.png'></img>
+      </div>
       <div className="footer-content">
-        <p>&copy; 2024 [Nombre de tu empresa]. Todos los derechos reservados.</p>
+        <p>&copy; 2024 Visión Online. Todos los derechos reservados.</p>
         <nav>
           <ul>
             <li><a href="#home">Inicio</a></li>

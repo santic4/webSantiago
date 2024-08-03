@@ -1,6 +1,7 @@
 /* FAQ.css */
 #faqs {
   padding: 5vh 20px;
+  background-color: transparent;
 }
 
 .faqs-header {
@@ -10,7 +11,7 @@
 
 .faqs-header h2 {
   font-size: 2.5em;
-  color: #003366; 
+  color: #07273c; 
   padding: 1vh;
 }
 
@@ -39,7 +40,7 @@
   align-items: center;
   cursor: pointer;
   font-size: 1.2em;
-  color: #003366; /* Azul Marino */
+  color: #07273c; /* Azul Marino */
 }
 
 .faq-question h4 {

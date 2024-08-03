@@ -3,11 +3,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 90vh;
+    height: 82vh;
     padding: 0 10vh;
     position: relative;
     overflow: hidden;
-    background-image: url('../../../public/background-laptop.jpg');
+    background-image: url('../../../public/back-mio.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@
     align-items: flex-start;
     text-align: start;
     height: 100%;
-    margin-top: 25vw;
+    margin-top: 45vh;
     text-align: start;
     width: 100%;
 }
@@ -50,15 +50,16 @@
 }
 
 .right-side h1 {
-    color:  #003366;
+    color:  white;
     font-weight: 800;
+    font-size: 7vh;
     text-align: start;
     margin-bottom: 3vh;
     text-shadow: 2px 2px 4px #0033662a;
 }
 
 .right-side h2 {
-    color:  #003366;
+    color:  white;
     text-align: start;
     text-shadow: 2px 2px 4px #0033662a;
     margin-bottom: 3.2vw;
@@ -71,18 +72,65 @@
 }
 
 .right-side button {
-    background-color:  #FF8C42;
-    box-shadow: 2px 2px 4px #ff583350;
-    color: #FFF;
+    font-size: 2vh;
+    background: #07273c;
+    font-weight: 600;
+    color: #fff;
+    transform: translateY(-0.4vh);
+    padding: 1vh 5vh;
     border: none;
-    align-items: start;
-    padding: 10px 8vh;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1vw;
-    transition: background-color 0.3s ease;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.4s ease, box-shadow 0.4s ease, transform 0.4s ease;
+    box-shadow: 0 5px 15px #00336641;
+}
+
+.right-side button:hover {
+    background: #003366; /* Color de fondo más oscuro al pasar el ratón */
+    box-shadow: 0 10px 20px #0033662a; /* Sombra más pronunciada */
+    transform: translateY(-1vh); /* Eleva el botón al pasar el ratón */
 }
 
 .right-side button:hover {
     background-color: #1A1F36;
 }
+
+@media screen and (max-width: 1200px) {
+    .container-father-header {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .left-side .container {
+        display: none;
+    }
+
+    .right-side {
+        min-width: 100%;
+        width: 100%;
+    }
+    
+    .right-side .container-right {
+        padding: 0;
+        text-align: center;
+        align-items: start;
+    }
+
+    .right-side h1 {
+        font-size: 5vh;
+    }
+    
+    .right-side h2 {
+        font-size: 3vh;
+    }
+    
+    .container-btn-head{
+        margin-top: 5vh;
+    }
+    
+    .right-side button {
+        font-size: 2.2vh;
+        padding: 0.8vh 4vh;
+    }
+}
+
