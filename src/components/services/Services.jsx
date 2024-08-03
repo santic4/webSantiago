@@ -1,6 +1,5 @@
 import React from 'react';
-import '../../styles/services/Services.css';
-
+import '../../styles/services/services.css'
 const Services = () => {
   return (
     <div className='container-father'>

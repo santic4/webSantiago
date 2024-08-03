@@ -1,6 +1,6 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
-import '../../styles/scroll/ScrollAnimationWrapper.css'; 
+import '../../styles/scroll/scrollAnimationWrapper.css'; 
 
 const ScrollAnimationWrapper = ({ children }) => {
     const { ref, inView } = useInView({
