@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div>
-        <img className='logo-vo' src='logoVO.png'></img>
+        <img className='logo-vo' src='logoVO.png' alt='ve-rosa'></img>
       </div>
       <div className="footer-content">
         <p>&copy; 2024 Visión Online. Todos los derechos reservados.</p>
