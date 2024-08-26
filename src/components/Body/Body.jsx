@@ -41,7 +41,7 @@ export default function Body() {
       <div className='right-side'>
 
         <div className='container-right'>
-          <h1>Transformá tu visión digital en realidad.</h1>
+          <h1>Desarrollo web y diseño gráfico.</h1>
           <h2>Tu sitio web será único, desde el diseño hasta la funcionalidad.</h2>
           <div className='container-btn-head'>
             <button>Contactanos</button>

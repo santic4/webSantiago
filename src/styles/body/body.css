@@ -3,14 +3,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 87vh;
-    padding: 0 10vh;
+    height: 100%;
     position: relative;
     overflow: hidden;
-    background-image: url('../../../public/back-mio.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    padding: 10vh 15vh;
 }
 
 /* Estilos para el lado izquierdo */
@@ -19,7 +15,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: -8vh;
 }
 
 .left-side .container {
@@ -37,20 +32,19 @@
     align-items: flex-start;
     text-align: start;
     height: 100%;
-    margin-top: 45vh;
-    text-align: start;
     width: 100%;
 }
 
 .right-side .container-right {
     padding-left: 6vh;
+    height: 100%;
     top: 0;
     text-align: center;
     align-items: start;
 }
 
 .right-side h1 {
-    color:  white;
+    color:  #111;
     font-weight: 800;
     font-size: 7vh;
     text-align: start;
@@ -108,11 +102,11 @@
     .right-side .container-right {
         padding: 0;
         text-align: center;
-        align-items: start;
     }
 
+
     .left-side .container {
-        margin-top: 10vh;
+        margin-top: 0vh;
         align-items: center;
         align-content: center;
     }
@@ -120,8 +114,28 @@
 
 @media screen and (max-width: 800px) {
 
-    .right-side {
+    .container-father-header {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10vh 5vh;
+    }
+
+    .left-side  {
         display: none;
     }
 
+    .right-side h1 {
+        font-size: 5vh;
+        text-align: center;
+    }
+    
+    .right-side h2 {
+        text-align: center;
+    }
+    
+    .container-btn-head{
+        justify-content: center;
+    }
+    
 }
