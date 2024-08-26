@@ -1,5 +1,5 @@
 .publicidad-section {
-  padding: 2vh 2vh 4vh;
+  padding: 5vh 2vh 6vh;
   background-color:#33C1FF;
   text-align: center;
 }
@@ -52,10 +52,6 @@
 
 /* QUERIES */
 @media screen and (max-width: 1300px){
-  .publicidad-section {
-    padding: 0vh 20px 1vh;
-  }
-
   
 .publicidad-titulo {
   font-size: 4vh;
