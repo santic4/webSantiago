@@ -3,13 +3,11 @@
     padding: 0 20px;
     position: fixed;
     width: 100%;
-    background: rgba(255, 255, 255, 0.9);
     top: 0;
     left: 0;
     z-index: 1000;
     transition: background 0.6s ease, box-shadow 0.3s ease;
     -webkit-backdrop-filter: blur(5px);
-    box-shadow: 0 2px 5px rgba(163, 163, 163, 0.032);
   }
   
   .navbar.scrolled {
@@ -43,7 +41,7 @@
     color:  #FF8C42;
     font-size: 2.5vh;
     font-weight: bold;
-    text-shadow: 2px 2px 4px #0033663b;
+    text-shadow: 0.5px 0.5px 1.8px #0033662a;
     text-decoration: none;
     transition: opacity 0.3s ease; /* Transición suave para la opacidad */
   }
@@ -117,7 +115,7 @@
     font-weight: 450;
     transition: color 0.3s ease;
     position: relative; 
-    text-shadow: .5px .5px 1px #00336651;
+    text-shadow: 0.5px 0.5px 1.8px #0033662a;  
   }
   
   .nav-links::after {
@@ -149,7 +147,7 @@
     border-radius: 50px;
     text-decoration: none;
     transition: background-color 0.4s ease, box-shadow 0.4s ease, transform 0.4s ease;
-    box-shadow: 0 5px 15px #ff8a42a3;
+    box-shadow: 0 1px 2px #ff8a42a3;
   }
   
   .btn-contact:hover {

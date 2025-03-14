@@ -1,12 +1,19 @@
 .container-father-header {
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100%;
-    position: relative;
     overflow: hidden;
     padding: 10vh 15vh;
+    background-color: white;
+    background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+    background-size: 16px 16px;
+}
+
+.styles_trailsText__\+Y3w0 {
+    
+    text-shadow: 0.5px 0.5px 1.8px #0033662a;
 }
 
 /* Estilos para el lado izquierdo */
@@ -31,7 +38,6 @@
     justify-content: flex-start;
     align-items: flex-start;
     text-align: start;
-    height: 100%;
     width: 100%;
 }
 
@@ -49,13 +55,13 @@
     font-size: 7vh;
     text-align: start;
     margin-bottom: 3vh;
-    text-shadow: 2px 2px 4px #0033662a;
+    text-shadow: 0.5px 0.5px 1.8px #0033662a;
 }
 
 .right-side h2 {
     color: none; 
     text-align: start;
-    text-shadow: 2px 2px 4px #0033662a;
+    text-shadow: 0.5px 0.5px 1.8px #0033662a;
     margin: 5vh auto;
 }
 
